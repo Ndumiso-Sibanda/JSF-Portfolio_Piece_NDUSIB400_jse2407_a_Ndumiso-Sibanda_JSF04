@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const paypal = require('paypal-rest-sdk');
-const paymentRoutes = require('./router/paymentRoutes'); // Assuming your routes are in this file
+const paymentRoutes = require('./router/paymentRoutes');
 
 const app = express();
 app.use(bodyParser.json());
